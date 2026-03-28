@@ -1,0 +1,16 @@
+theme: OnlySearch
+disableNewStartMenuLayout: 0
+controlStyles:
+  - target: ''
+    styles:
+      - ''
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
+styleConstants:
+  - ''
+resourceVariables:
+  - variableKey: ''
+    value: ''

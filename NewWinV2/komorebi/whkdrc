@@ -1,0 +1,42 @@
+.shell powershell
+
+# Reload whkd configuration
+# alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
+alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
+alt + shift + o         : komorebic reload-configuration
+
+alt + i                 : komorebic toggle-shortcuts
+
+# App shortcuts - these require shell to be pwsh / powershell
+# The apps will be focused if open, or launched if not open
+alt + f                 : komorebic focus-workspace 1
+alt + s                 : komorebic focus-workspace 0
+alt + q                 : komorebic close
+alt + m                 : komorebic minimize
+
+# Focus windows
+alt + a                 : komorebic focus left
+alt + s                 : komorebic focus down
+alt + w                 : komorebic focus up
+alt + d             : komorebic focus right
+
+# Move windows
+alt + shift + a         : komorebic move left
+alt + shift + s         : komorebic move down
+alt + shift + w         : komorebic move up
+alt + shift + d         : komorebic move right
+alt + shift + return    : komorebic promote
+
+# Resize
+alt + oem_plus          : komorebic resize-axis horizontal increase
+alt + oem_minus         : komorebic resize-axis horizontal decrease
+alt + shift + oem_plus  : komorebic resize-axis vertical increase
+alt + shift + oem_minus : komorebic resize-axis vertical decrease
+
+# Manipulate windows
+alt + t                 : komorebic toggle-float
+alt + shift + f         : komorebic toggle-monocle
+
+# WORKSPACE NAVIGATION (ARROW)
+ctrl + alt + left  : komorebic focus left
+ctrl + alt + right : komorebic focus right

@@ -1,0 +1,79 @@
+* {
+    font-size: 12px;
+    color: #e0e3ee;
+    font-weight: 600;
+    font-family: "Segoe UI", "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+.yasb-bar {
+    padding: 0 8px;
+    margin: 0;
+    background-color: rgba(14, 18, 26, 0.712);
+    border-radius: 8px;
+    border: 1px solid rgb(45, 54, 68); 
+}  
+.komorebi-workspaces .widget-container {
+    margin-left: 8px;
+} 
+.komorebi-workspaces .widget-container {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none
+}
+.komorebi-workspaces .offline-status {
+    color: #627199;
+    font-size: 12px;
+    padding: 0 4px;
+    font-weight: 600;
+}
+.komorebi-workspaces .ws-btn {
+    border: none;
+    background-color: rgb(83, 86, 99);
+    margin: 0 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0);
+}
+.komorebi-workspaces .ws-btn:hover {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgb(139, 143, 156);
+}
+.komorebi-workspaces .ws-btn.populated {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgb(139, 143, 156);
+}
+
+.komorebi-workspaces .ws-btn.active {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgb(191, 195, 209);
+    width: 90px;
+    height: 12px;
+}
+.active-window-widget .label {
+  color: #ffffff;
+  font-family: "Segoe UI Semibold";
+  font-size: 13px;
+  font-weight: normal;
+}
+.active-window-widget .icon{
+  padding-right: 10px;
+}
+.komorebi-active-layout {
+  font-family: "Segoe UI Semibold";
+  font-size: 14px;
+  font-weight: bold;
+}
+.komorebi-active-layout .label {
+  font-family: "Segoe UI Semibold";
+  font-size: 14px;
+  font-weight: normal;
+}
+/*
+.custom-widget {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #cdd6f4;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,87 @@
+watch_stylesheet: true
+watch_config: true
+debug: false
+komorebi:
+  start_command: "komorebic start --whkd"
+  stop_command: "komorebic stop --whkd"
+  reload_command: "komorebic stop --whkd && komorebic start --whkd"
+bars:
+  primary-bar:
+    enabled: true
+    screens: ['*'] 
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    blur_effect:
+      enabled: true
+      acrylic: false
+      dark_mode: true
+      round_corners: false
+      border_color: None
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 28
+    padding:
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+    widgets:
+      left:
+        [ 
+#             "komorebi_active_layout"
+            "komorebi_workspaces"
+#            "scroll_indicator"
+        ]
+      center :
+        [
+          "active_window"
+        ]  
+widgets:
+#  scroll_indicator:
+#    type: "yasb.custom.CustomWidget"
+#    options:
+#      script  : "powershell -File C:\\Users\\sulae\\.config\\yasb\\scroll.ps1"
+#      interval: 150
+#  komorebi_active_layout:
+#  type: "komorebi.active_layout.ActiveLayoutWidget"
+#    options:
+#      label: "{icon}"
+#    
+#      layouts: ["bsp", "scrolling"]
+#
+#      layout_icons:
+#        bsp: " \udb81\udc3e "
+#        scrolling: ""
+#
+#      callbacks:
+#        on_left: ""
+#        on_middle: ""
+#        on_right: ""
+  komorebi_workspaces:
+    type: "komorebi.workspaces.WorkspaceWidget"
+    options:
+        label_offline: "\u26a1 Offline"
+        label_workspace_btn: "\udb81\udc3d"
+        label_workspace_active_btn: ""
+        label_workspace_populated_btn: "\udb81\udc3e"
+        label_default_name: "{index}"
+        label_zero_index: false
+        hide_empty_workspaces: false
+        hide_if_offline: false
+        animation: true
+  active_window:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: "{win[title]}"
+      label_alt: "{win[title]}"
+      label_no_window: ""
+      label_icon: true
+      label_icon_size: 17
+      max_length: 100
+      max_length_ellipsis: "..."
+      monitor_exclusive: false

@@ -1,0 +1,128 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        }
+    ],
+    "alwaysOnTop": false,
+    "alwaysShowTabs": false,
+    "autoHideWindow": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.OpenNewWindow",
+            "keys": "shift+enter"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "win+shift+f"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "colorScheme": "Dark+",
+                "commandline": "powershell.exe -NoLogo -NoExit -Command \"Clear-Host\"",
+                "elevate": false,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "size": 11
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "opacity": 60,
+                "scrollbarState": "hidden",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{b653c213-274d-5f83-9cbd-59960a7a0f3a}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{45ff86a9-38b8-5d82-a55a-1c7193ca701b}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{b6bf6dcf-328b-4d23-b924-ab80a332edf2}",
+                "hidden": false,
+                "name": "Profile 6"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1' \"",
+                "guid": "{f80de796-690f-5ea1-8507-3dd3c114be31}",
+                "icon": "C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "Anaconda PowerShell Prompt (25.11.1-1)",
+                "startingDirectory": "C:\\Users\\sulae"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1\\Scripts\\activate.bat C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1",
+                "guid": "{ce791224-a3cc-5fea-ab17-1bc746c6ff01}",
+                "icon": "C:\\Users\\sulae\\scoop\\apps\\miniconda3\\25.11.1-1\\Menu\\anaconda_prompt.ico",
+                "name": "Anaconda Prompt (25.11.1-1)",
+                "startingDirectory": "C:\\Users\\sulae"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTabsFullscreen": false,
+    "showTabsInTitlebar": true,
+    "tabWidthMode": "titleLength",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}

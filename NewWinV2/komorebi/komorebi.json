@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "C:\\users\\sulae\\.config\\komorebi\\applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Swap",
+  "transparency": false,
+  "border": false,
+  "mouse_follows_focus": true,
+
+  "animation": {
+    "enabled": true,
+    "duration": 400,
+    "fps": 72,
+    "style": {
+      "movement": "EaseOutBack"
+    }
+  },
+
+  "theme": {
+    "palette": "Base16",
+    "name": "DefaultLight",
+    "unfocused_border": "Base00",
+    "bar_accent": "Base0B",
+    "single_border": "Base00",
+    "floating_border": "Base0B"
+  },
+
+  "monitors": [
+    {
+      "name": "I",
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 1,
+              "center_focused_column": true
+            }
+          },
+          "workspace_padding": 50,
+          "container_padding": 10
+        }
+      ]
+    },
+    {
+      "name": "II",
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP",
+          "workspace_padding": 15,
+          "container_padding": 15
+        }
+      ]
+    }
+  ],
+
+  "ignore_rules": []
+}
+
