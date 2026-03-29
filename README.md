@@ -32,7 +32,7 @@ Font: JetBrainsMono Nerd Font
 
 ## Video
 
-![Video](https://github.com/qillqy/NewWinV2/issues/1#issue-4162649861)
+![Video]((https://github.com/user-attachments/assets/b7fe3bd1-079a-4d12-ab0d-fdd5c38c02b7))
 
 ---
 
