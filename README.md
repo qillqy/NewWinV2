@@ -32,7 +32,7 @@ Font: JetBrainsMono Nerd Font
 
 ## Video
 
-![Video](NewWinV2/Asset/unknown_2026.03.29-11.30(1).mp4)
+![Video](NewWinV2/Asset/2026-03-2911-32-47(1).mp4)
 
 ---
 
