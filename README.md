@@ -1,4 +1,4 @@
-# NewWin
+# NewWin V2
 # New Minimalism — Windows 11 Rice
 
 Minimal Windows 11 setup powered by:
@@ -25,8 +25,14 @@ Font: JetBrainsMono Nerd Font
 
 ## Photos
 
-![Desktop]()
-![Terminal]()
+![Desktop](NewWinV2/Asset/2026.03.29-11.35.png)
+![Terminal](NewWinV2/Asset/unknown_2026.03.29-11.35_01.png)
+
+---
+
+## Video
+
+![Video](NewWinV2/Asset/unknown_2026.03.29-11.30(1).mp4)
 
 ---
 
