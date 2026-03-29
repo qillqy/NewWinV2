@@ -32,7 +32,8 @@ Font: JetBrainsMono Nerd Font
 
 ## Video
 
-![Video]((https://github.com/user-attachments/assets/b7fe3bd1-079a-4d12-ab0d-fdd5c38c02b7))
+<video src="https://github.com/user-attachments/assets/b7fe3bd1-079a-4d12-ab0d-fdd5c38c02b7" width="600" controls>
+</video>
 
 ---
 
