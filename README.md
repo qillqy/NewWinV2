@@ -1,5 +1,7 @@
 # NewWin V2
 # New Minimalism — Windows 11 Rice
+---
+v2 of NewWin
 
 Minimal Windows 11 setup powered by:
 
